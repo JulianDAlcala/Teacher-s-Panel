@@ -15,7 +15,10 @@ A repository for a attention panel of students to help communicate with teachers
 * Python 2.7 necessary libraries(mqtt,flask,xlrd)
 # How to install
 It´s neccesary to install the libraries as follows
-* to install mqtt: "sudo apt install -y mosquitto mosquitto-clients"
+* to install mqtt:
+```sh 
+sudo apt install -y mosquitto mosquitto-clients
+```
 * to install fask: "sudo pip install flask"
 * to install xlrd: "pip install xlrd"
 
