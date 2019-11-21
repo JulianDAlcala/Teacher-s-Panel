@@ -6,7 +6,7 @@ A repository for a attention panel of students to help communicate with teachers
 * Data files
 * Dev script
 # Hardward Requirements:
-* A Raspberry py 3 
+* A Raspberry py 3 [https://www.raspberrypi.org/products/raspberry-pi-3-model-b/]
 * 2 module Nodemcu ESP8266
 * A Touch screen 3.5" for raspberry py 3
 * A servomotor to 5V
@@ -18,3 +18,7 @@ It´s neccesary to install the libraries as follows
 * to install mqtt: "sudo apt install -y mosquitto mosquitto-clients"
 * to install fask: "sudo pip install flask"
 * to install xlrd: "pip install xlrd"
+
+```sh
+sudo nano /boot/config.txt
+```
