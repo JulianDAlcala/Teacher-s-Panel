@@ -17,5 +17,4 @@ This repository contents:
 It´s neccesary to install the libraries as follows
 * to install mqtt: "sudo apt install -y mosquitto mosquitto-clients"
 * to install fask: "sudo pip install flask"
-* to install xlrd: ""
- 
+* to install xlrd: "pip install xlrd"
