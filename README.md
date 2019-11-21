@@ -19,9 +19,11 @@ It´s neccesary to install the libraries as follows
 ``` sh 
 sudo apt install -y mosquitto mosquitto-clients 
 ```
-* to install fask: "sudo pip install flask"
-* to install xlrd: "pip install xlrd"
-
-```sh
-sudo nano /boot/config.txt
+* to install fask: 
+``` sh 
+sudo pip install flask
+```
+* to install xlrd: 
+``` sh
+pip install xlrd"
 ```
