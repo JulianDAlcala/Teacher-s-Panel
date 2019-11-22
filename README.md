@@ -82,6 +82,20 @@ https://arduino.esp8266.com/stable/package_esp8266com_index.json
 into the Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
 next to go to the card manager and the search engine write " esp8266"  and select "esp0266 community" then tool plate and select generic esp8266 module the flash size is set to " 4M (1M SPIFFS) " and "upload speed: 115200" and the serial port is configured.
 
+# **How to RUN**
+Lo primero es crear una carpeta para depositar todos los archivos necesarios.
+``` sh
+cd
+cd Desktop/
+mkdir web
+cd web/
+```
+ahora, dentro de esta carpeta copio los archivos "app.py, Horarios.xlsx y la se crea la carpeta templates"
+``` sh
+mkdir templates
+```
+dentro de la carpeta templates se copian los archivos "main.html y horarios.html"
+
 # **University of Ibague**
 Programa de Ingeniería Electrónica
 Electrónica Digital III 2019B
