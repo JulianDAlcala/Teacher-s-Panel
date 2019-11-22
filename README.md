@@ -90,7 +90,7 @@ cd Desktop/
 mkdir web
 cd web/
 ```
-ahora, dentro de esta carpeta copio los archivos "app.py, Horarios.xlsx y la se crea la carpeta templates"
+ahora, dentro de esta carpeta se copian los archivos "app.py, Horarios.xlsx y la se crea la carpeta templates"
 ``` sh
 mkdir templates
 ```
