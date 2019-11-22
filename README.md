@@ -75,8 +75,12 @@ sudo ./LCD-hdmi
 # Programming of Nodemcu ESP8266
 In firts time you need to install a library into arduino IDE
 
-file is opened then preferences and enter https://arduino.esp8266.com/stable/package_esp8266com_index.json into the Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
-next to go to the card manager and the search engine write esp8266 and select esp0266 community then tool plate and select generic esp8266 module the flash size is set to 4M (1M SPIFFS) and upload speed: 115200 and the serial port is configured
+file is opened then preferences and enter 
+``` sh
+https://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
+into the Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
+next to go to the card manager and the search engine write " esp8266"  and select "esp0266 community" then tool plate and select generic esp8266 module the flash size is set to " 4M (1M SPIFFS) " and "upload speed: 115200" and the serial port is configured.
 
 # **University of Ibague**
 Programa de Ingeniería Electrónica
