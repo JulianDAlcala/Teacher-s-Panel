@@ -39,10 +39,23 @@ that library helps to implement versions 3.1 and 3.1.1 of the MQTT protocol.
 sudo pip install flask
 ```
 This library is where you can use the rasberry pi 3 to host the website i.e, the server where all the information will go.
+
 * to install xlrd: 
 ``` sh
 pip install xlrd"
 ```
 With this library you will be able to link the excel documents with the website and thus be able to read the information files that will be run.
 
+#conecting the rasberry pi to touch screen 3.5" 
 
+Usually when you use the rasberry pi you connect way to hdmi with a screen. In this case, you use a touch screen 3.5" directly connect to raspberry , so you need to install and put some commands.
+``` sh
+sudo rm -rf LCD-show 
+
+git clone https://github.com/goodtft/LCD-show.git 
+
+chmod -R 755 LCD-show 
+
+cd LCD-show/
+```
+sudo ./LCD35-show
