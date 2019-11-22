@@ -18,7 +18,7 @@ A repository for a attention panel of students to help communicate with teachers
 
 * Ubuntu 16.04
 * Python 2.7 necessary libraries(mqtt,flask,xlrd)
-
+* Arduino IDE
 # **How to install**
 
 It´s neccesary to install the libraries as follows
@@ -48,7 +48,7 @@ With this library you will be able to link the excel documents with the website 
 
 # Connection between the rasberry pi to touch screen 3.5" 
 
-Usually when you use the rasberry pi you connect way to hdmi with a monitor. In this case, you use a touch screen 3.5" directly connect to raspberry pinout, so you need to put some commands.
+Usually when you use the rasberry pi you connect way to hdmi with a monitor. In this case, you use a touch screen 3.5" directly connect to raspberry pinout, so you need to put some commands:
 ``` sh
 sudo rm -rf LCD-show 
 
@@ -70,5 +70,24 @@ chmod -R 755 LCD-show
 cd LCD-show/ 
 
 
-sudo ./LCD-hdmi
+sudo ./LCD-hdmi 
 ```
+# Programming of Nodemcu ESP8266
+In firts time you need to install a library into arduino IDE
+
+file is opened then preferences and enter https://arduino.esp8266.com/stable/package_esp8266com_index.json into the Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
+then go to the card manager and the search engine
+write esp8266, select esp0266 community
+then tool plate and select generic esp8266 module
+the flash size is set to 4M (1M SPIFFS) and upload speed: 9600 and the serial port is configured
+
+# **University of Ibague**
+Programa de Ingeniería Electrónica
+Electrónica Digital III 2019B
+Authors:
+  - Julian David Alcala Forero
+  - Jhon Faver Mendoza 
+  - Juan Camilo Leon Martinez
+  
+  Tutor:
+  Harold F. Murcia
