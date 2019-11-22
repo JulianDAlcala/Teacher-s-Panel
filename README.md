@@ -46,9 +46,9 @@ pip install xlrd"
 ```
 With this library you will be able to link the excel documents with the website and thus be able to read the information files that will be run.
 
-# **Connection between the rasberry pi to touch screen 3.5" **
+# Connection between the rasberry pi to touch screen 3.5" 
 
-Usually when you use the rasberry pi you connect way to hdmi with a screen. In this case, you use a touch screen 3.5" directly connect to raspberry , so you need to install and put some commands.
+Usually when you use the rasberry pi you connect way to hdmi with a monitor. In this case, you use a touch screen 3.5" directly connect to raspberry pinout, so you need to put some commands.
 ``` sh
 sudo rm -rf LCD-show 
 
@@ -59,4 +59,16 @@ chmod -R 755 LCD-show
 cd LCD-show/
 
 sudo ./LCD35-show
+```
+In the last line this 35 indicates the size of touch screen that is so important because if you will to work with another touch screen, you will need another commands.
+
+If you want to come back to work since the monitor , just need to put the next commands in the terminal.
+
+``` sh
+chmod -R 755 LCD-show 
+
+cd LCD-show/ 
+
+
+sudo ./LCD-hdmi
 ```
