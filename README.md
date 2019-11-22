@@ -7,19 +7,19 @@ A repository for a attention panel of students to help communicate with teachers
 * Data files
 * Dev script
 
-# Hardward Requirements:
+# **Hardward Requirements:**
 
 * A Raspberry py 3 [https://www.raspberrypi.org/products/raspberry-pi-3-model-b/]
 * 2 module Nodemcu ESP8266 [https://naylampmechatronics.com/espressif-esp/153-nodemcu-esp8266.html]
 * A Touch screen 3.5" for raspberry py 3 [http://www.lcdwiki.com/3.5inch_RPi_Display]
 * A servomotor to 5V [http://www.ee.ic.ac.uk/pcheung/teaching/DE1_EE/stores/sg90_datasheet.pdf]
 
-# Software Requirements:
+# **Software Requirements:**
 
 * Ubuntu 16.04
 * Python 2.7 necessary libraries(mqtt,flask,xlrd)
 
-# How to install
+# **How to install**
 
 It´s neccesary to install the libraries as follows
 
@@ -46,7 +46,7 @@ pip install xlrd"
 ```
 With this library you will be able to link the excel documents with the website and thus be able to read the information files that will be run.
 
-#conecting the rasberry pi to touch screen 3.5" 
+# **Connection between the rasberry pi to touch screen 3.5" **
 
 Usually when you use the rasberry pi you connect way to hdmi with a screen. In this case, you use a touch screen 3.5" directly connect to raspberry , so you need to install and put some commands.
 ``` sh
@@ -57,5 +57,6 @@ git clone https://github.com/goodtft/LCD-show.git
 chmod -R 755 LCD-show 
 
 cd LCD-show/
-```
+
 sudo ./LCD35-show
+```
